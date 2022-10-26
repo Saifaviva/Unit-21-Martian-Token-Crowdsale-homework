@@ -318,3 +318,36 @@ Upload the files for this assignment to your GitHub repository.
 
 
 Submit the link to your GitHub repo on Bootcamp Spot.
+
+Processes:
+Basic KaseiCoin Crowdsale Demo
+To review the functionality of the basic KaseiCoin crowdsale, see KaseiCoinCrowdsaleDemo.mov in this repository. The demonstration completes the following steps:
+
+Deploy the crowdsale to a local blockchain by using Remix, MetaMask, and Ganache.
+
+Test the functionality of the crowdsale by using test accounts to buy new tokens and then checking the balances of those accounts.
+
+Review the total supply of minted tokens and the amount of wei that the crowdsale contract has raised.
+
+KaseiCoin Timed Crowdsale Demo
+To review the functionality of the KaseiCoin timed crowdsale, see KaseiCoinTimedCrowdsaleDemo.mov in this repository. The demonstration completes the following steps:
+
+Send ether to the crowdsale from a different account.
+
+
+Finalize the sale by using the finalize function of the Crowdsale contract. When sending ether to the contract, it is important that it meets the goal of the contract. Note that to finalize the sale, isOpen must return false (isOpen comes from TimedCrowdsale and checks whether the close time has passed).
+
+Review tokens in MetaMask.
+Attchached files:
+KaseiCoin Crowdsale Evaluation Results
+KaseiCoin Contract Compiled
+Compiled-KaseiCoin
+
+KaseiCoin Crowdsale Contract Compiled 
+Compiled-KaseiCoinCrowdsale
+
+KaseiCoin Deployer Contract Compiled
+Compiled-KaseiCoinDeployer
+
+Timed KaseiCoin Crowdsale Contract Compiled 
+Compiled-KaseiCoinTimedCrowdsale
